@@ -1,22 +1,13 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>百合机</title>
+        <title>百合机 • Posts by &#34;百合&#34; category</title>
         <link>https://Yuri208305.github.io</link>
         <description>记录，学习，与杂谈</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 17 Aug 2026 10:22:33 +0800</pubDate>
-        <lastBuildDate>Mon, 17 Aug 2026 10:22:33 +0800</lastBuildDate>
+        <pubDate>Mon, 17 Aug 2026 10:12:36 +0800</pubDate>
+        <lastBuildDate>Mon, 17 Aug 2026 10:12:36 +0800</lastBuildDate>
         <category>movie</category>
-        <item>
-            <guid isPermalink="true">https://yuri208305.github.io/2026/08/17/My-New-Post/</guid>
-            <title>My New Post</title>
-            <link>https://yuri208305.github.io/2026/08/17/My-New-Post/</link>
-            <category>movie</category>
-            <pubDate>Mon, 17 Aug 2026 10:22:33 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;《欢迎来龙餐馆》死亡的煎熬&lt;/p&gt;
- ]]></description>
-        </item>
         <item>
             <guid isPermalink="true">https://yuri208305.github.io/2026/08/17/hello-world/</guid>
             <title>Hello World</title>

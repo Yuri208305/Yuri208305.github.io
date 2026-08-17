@@ -1,19 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "百合机",
+    "title": "百合机 • All posts by \"ctf\" category",
     "description": "记录，学习，与杂谈",
     "home_page_url": "https://Yuri208305.github.io",
     "items": [
-        {
-            "id": "https://yuri208305.github.io/2026/08/17/My-New-Post/",
-            "url": "https://yuri208305.github.io/2026/08/17/My-New-Post/",
-            "title": "My New Post",
-            "date_published": "2026-08-17T02:22:33.000Z",
-            "content_html": "<p>《欢迎来龙餐馆》死亡的煎熬</p>\n",
-            "tags": [
-                "movie"
-            ]
-        },
         {
             "id": "https://yuri208305.github.io/2026/08/17/hello-world/",
             "url": "https://yuri208305.github.io/2026/08/17/hello-world/",
