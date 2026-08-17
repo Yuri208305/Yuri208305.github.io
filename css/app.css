@@ -5280,20 +5280,50 @@ span.label {
 .audio.playing .cover .disc {
   animation-play-state: running;
 }
+html,
 body {
-  cursor: url("/images/your-cursor.png"), auto;
+  cursor: url("/images/your-cursor.png") 0 0, url("/images/your-cursor.cur") 0 0, auto;
 }
 a,
 button,
-input,
 [role="button"],
-label,
-select,
-summary,
 .btn,
+.button,
 .item,
 .menu a,
 .nav a,
-.social a {
-  cursor: url("/images/your-cursor.png"), pointer;
+.social a,
+.toggle,
+.tabs .nav li,
+.tabs .show-btn,
+summary,
+label,
+select,
+.tag,
+.category,
+#sidebar .tab .item,
+#quick li,
+#tool .item,
+#search .close-btn,
+.player .cover,
+.operation,
+.show-btn,
+.code-container .show-btn,
+.audio .cover {
+  cursor: url("/images/your-cursor.png") 0 0, url("/images/your-cursor.cur") 0 0, pointer;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+textarea,
+[contenteditable="true"] {
+  cursor: text;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: default;
 }
