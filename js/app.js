@@ -2246,21 +2246,24 @@ const siteRefresh = function (reload) {
   vendorJs('copy_tex');
   vendorCss('mermaid');
   vendorJs('chart');
-  vendorJs('valine', function() {
-    var options = Object.assign({}, CONFIG.valine);
-    options = Object.assign(options, LOCAL.valine||{});
-    options.el = '#comments';
-    options.pathname = LOCAL.path;
-    options.pjax = pjax;
-    options.lazyload = lazyload;
+  // Giscus 和 Valine 互斥：检测到 Giscus 容器时跳过 Valine
+  if (!document.getElementById('giscus-wrap')) {
+    vendorJs('valine', function() {
+      var options = Object.assign({}, CONFIG.valine);
+      options = Object.assign(options, LOCAL.valine||{});
+      options.el = '#comments';
+      options.pathname = LOCAL.path;
+      options.pjax = pjax;
+      options.lazyload = lazyload;
 
-    new MiniValine(options);
+      new MiniValine(options);
 
-    setTimeout(function(){
-      positionInit(1);
-      postFancybox('.v');
-    }, 1000);
-  }, window.MiniValine);
+      setTimeout(function(){
+        positionInit(1);
+        postFancybox('.v');
+      }, 1000);
+    }, window.MiniValine);
+  }
 
   if(!reload) {
     $.each('script[data-pjax]', pjaxScript);
