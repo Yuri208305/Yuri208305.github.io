@@ -2246,8 +2246,8 @@ const siteRefresh = function (reload) {
   vendorJs('copy_tex');
   vendorCss('mermaid');
   vendorJs('chart');
-  // Giscus 和 Valine 互斥：检测到 Giscus 容器时跳过 Valine
-  if (!document.getElementById('giscus-wrap')) {
+  // Giscus / Utterances 与 Valine 互斥：检测到任一时跳过 Valine
+  if (!document.getElementById('giscus-wrap') && !document.getElementById('utterances-wrap')) {
     vendorJs('valine', function() {
       var options = Object.assign({}, CONFIG.valine);
       options = Object.assign(options, LOCAL.valine||{});
