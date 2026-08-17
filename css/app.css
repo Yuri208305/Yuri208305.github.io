@@ -5280,3 +5280,20 @@ span.label {
 .audio.playing .cover .disc {
   animation-play-state: running;
 }
+body {
+  cursor: url("/images/your-cursor.png"), auto;
+}
+a,
+button,
+input,
+[role="button"],
+label,
+select,
+summary,
+.btn,
+.item,
+.menu a,
+.nav a,
+.social a {
+  cursor: url("/images/your-cursor.png"), pointer;
+}
