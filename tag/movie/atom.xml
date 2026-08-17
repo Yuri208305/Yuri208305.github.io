@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://Yuri208305.github.io</id>
     <title>百合机 • Posts by &#34;movie&#34; tag</title>
-    <link href="http://example.com" />
+    <link href="https://Yuri208305.github.io" />
     <updated>2026-08-17T02:22:33.000Z</updated>
     <category term="movie" />
     <entry>
-        <id>http://example.com/2026/08/17/My-New-Post/</id>
+        <id>https://yuri208305.github.io/2026/08/17/My-New-Post/</id>
         <title>My New Post</title>
-        <link rel="alternate" href="http://example.com/2026/08/17/My-New-Post/"/>
+        <link rel="alternate" href="https://yuri208305.github.io/2026/08/17/My-New-Post/"/>
         <content type="html">&lt;p&gt;《欢迎来龙餐馆》死亡的煎熬&lt;/p&gt;
 </content>
         <category term="movie" />
